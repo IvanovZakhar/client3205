@@ -30,7 +30,7 @@ function App() {
     setLoading(true);
     console.log(email)
     // Отправляем запрос на бэкенд
-    fetch('your-adress/api/search', {
+    fetch('https://f9fd09879062.vps.myjino.ru:49256/api/search', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
