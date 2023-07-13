@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+.App { 
+  padding: 30px;
 }
 
 .App-logo {
@@ -35,4 +35,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+form{ 
+  width: 300px; 
+}
+ul{
+  list-style: none;   
 }
