@@ -30,7 +30,7 @@ function App() {
     setLoading(true);
     console.log(email)
     // Отправляем запрос на бэкенд
-    fetch('https://server3205.vercel.app/api/search', {
+    fetch('your-adress/api/search', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
